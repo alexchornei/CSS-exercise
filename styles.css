@@ -1,0 +1,101 @@
+p {
+    color: #2c3e50;
+    font: italic 20px Verdana;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #27ae60;
+  }
+
+#para1 {
+    color: #2ecc71;
+}
+
+.header {
+    color: #e67e22;
+   /* visibility: hidden;
+    display: none;*/
+}
+
+h1 {
+    background-color: linen;
+}
+
+body {
+background-image:
+radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
+radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
+background-size: 110px 110px;
+background-color: #C8D3A7;
+background-position: 0 0, 55px 55px;
+}
+
+
+
+.h1-display {
+    display: none;
+}
+
+body {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  #assignment3 {
+   font-size: 16px;
+  }
+
+  li{
+      font-size: 0.9em;
+  }
+  
+  .square-box{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: #4679BD;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+}
+
+.box {
+border: 50px solid #e74c3c;
+padding: 50px;
+text-transform: uppercase;
+width: 50%;
+}
+
+.content {
+    border-color: green;
+    box-sizing: content-box;
+    width: 75%;
+}
